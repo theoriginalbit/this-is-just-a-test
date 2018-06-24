@@ -12,7 +12,7 @@ public class ThisIsJustAClass {
      *
      * @param custom a custom string
      */
-    public ThisIsJustAClass(String custom) {
+    public ThisIsJustAClass(final String custom) {
         this.custom = custom;
     }
 
@@ -31,7 +31,7 @@ public class ThisIsJustAClass {
      * @param name the name to greet
      * @return the greeting
      */
-    public String getHello(String name) {
+    public String getHello(final String name) {
         return "Hello, " + name;
     }
 
