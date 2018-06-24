@@ -56,12 +56,13 @@ crashlytics-build.properties
 fabric.properties
 
 ### JetBrains Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+# originally commented out due to this reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+# but this is a gradle project so iml and ipr files are generated on import, so we don't want them
 
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
 
 # Sonarlint plugin
 .idea/sonarlint
