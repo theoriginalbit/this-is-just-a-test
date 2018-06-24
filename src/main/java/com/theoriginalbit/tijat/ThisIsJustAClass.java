@@ -43,4 +43,13 @@ public class ThisIsJustAClass {
     public String getHelloCustom() {
         return "Hello, " + custom;
     }
+
+    /**
+     * Gets the custom person/thing that can be greeted with {@link #getHelloCustom()}.
+     *
+     * @return the string provided in {@link #ThisIsJustAClass(String)}
+     */
+    public String getCustom() {
+        return custom;
+    }
 }
